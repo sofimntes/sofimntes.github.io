@@ -1,0 +1,312 @@
+.tamaño-logo {
+    width: 200px; 
+    height: 30px;
+}
+.unaspalabras {
+    width: 1440px;
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.unas-palabras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.palabras {
+    width: 996px;
+    height: 146px;
+    text-align: center;
+}
+h2 {
+    position: absolute;
+    font-size: 11px;
+}
+.section-hablemos {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hablemos {
+    width: 793px;
+    height: 218px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parrafo-hablemos {
+    color: white;
+    width: 334px;
+}
+footer{
+    width: 1440px;
+    height: 446px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ul-footer {
+    display: flex;
+    flex-direction: row;
+    width: 657px;
+    justify-content: space-between;
+}
+.ul-footer li{
+    text-decoration: none;
+    list-style: none;
+}
+.Conocenos{
+    max-width: 732px;
+    min-width: 350px;
+    height: 194px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:500px){
+    .Conocenos{
+        width: 375px;
+        flex-direction: column;
+    }
+
+    .section-conocenos{
+        width: 375px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Conocenos p{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .miembros{
+        flex-direction: row;
+        width: 375px;
+    }
+
+    .Equipo p{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .section-miembros{
+        width: 375px;
+        display: flex;
+    }
+
+    .div-miembro{
+        width: 100px;
+    }
+    .miembros{
+        display: flex;
+    }
+
+    .Equipo{
+        width: 375px;
+    }
+
+    footer{
+        width: 375px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer div img{
+        width: 150px;
+        height: 85px;
+    }
+
+    .redes img{
+        width: 44px;
+        height: 44px;
+    }
+
+    .ul-footer {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        justify-content: center;
+    }
+
+    .foto-miembro{
+        width: 40%;
+    }
+
+    .Fotografos .miembros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+    }
+
+    .Fotografos .miembros p{
+        width: 200px;
+        text-align: left;
+    }
+
+    .miembros .float{
+        width: 375px;
+        align-items: center;
+    }
+
+    .container-img{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-img img{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .galeria-section{
+        width: 375px;
+        height: auto;
+    }
+}
+
+.Conocenos p{
+    text-align: center;
+}
+section{
+    width: 1440px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Equipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.miembros{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.miembros p{
+    width: 625px;
+}
+.miembros div{
+    padding: 20px;
+}
+.container-img{
+    width: 1134px;
+    height: 797px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "area1 area2 area3"
+    "area4 area4 area5";
+}
+.container-img img{
+    width: 100%;
+    height: 100%;
+}
+main{
+    max-width: 1400px;
+    overflow: hidden;
+}
+body{
+    max-width: 1400px;
+}
+footer div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.redes{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.section-servicios div{
+    width: 1400px;
+    height: 477px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-servicios .servicio-fondo{
+    background-image: url(./assets/Servicios\ \(1\).png);
+}
+.section-servicios .servicio-fondo1{
+    background-image: url(./assets/Servicios\ \(2\).png);
+}
+.section-servicios .servicio-fondo2{
+    background-image: url(./assets/Servicios\ \(3\).png);
+}
+.section-servicios h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+button{
+    border-radius: 15px;
+}
+.section-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mb-3{
+    width: 700px;
+    height: 100px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
+}
+body p{
+    font-family: 'Franklin Gothic Book';
+    font-size: 26px;
+}
+body h2{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+}
+body h3{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: lighter;
+    font-size: 30px;
+}
+.heroimagen{
+    padding: 0%;
+}
+
+.gracias-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
